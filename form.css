@@ -1,0 +1,102 @@
+#wrap{
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* Opera */
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #D3D8E8));
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* W3C Markup, IE10 Release Preview */
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #D3D8E8 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+border-radius: 5px;
+
+}
+legend{
+	color:#141823;
+	font-size:25px;
+	font-weight:bold;
+  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+}
+.signup-btn {
+  background: #79bc64;
+  background-image: -webkit-linear-gradient(top, #79bc64, #578843);
+  background-image: -moz-linear-gradient(top, #79bc64, #578843);
+  background-image: -ms-linear-gradient(top, #79bc64, #578843);
+  background-image: -o-linear-gradient(top, #79bc64, #578843);
+  background-image: linear-gradient(to bottom, #79bc64, #578843);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  text-shadow: 0px 1px 0px #898a88;
+  -webkit-box-shadow: 0px 0px 0px #a4e388;
+  -moz-box-shadow: 0px 0px 0px #a4e388;
+  box-shadow: 0px 0px 0px #a4e388;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3b6e22  1px;
+  text-decoration: none;
+  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+}
+
+.signup-btn:hover {
+  background: #79bc64;
+  background-image: -webkit-linear-gradient(top, #79bc64, #5e7056);
+  background-image: -moz-linear-gradient(top, #79bc64, #5e7056);
+  background-image: -ms-linear-gradient(top, #79bc64, #5e7056);
+  background-image: -o-linear-gradient(top, #79bc64, #5e7056);
+  background-image: linear-gradient(to bottom, #79bc64, #5e7056);
+  text-decoration: none;
+    font-family:tahoma;
+		  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+}
+.navbar-default .navbar-brand{
+		color:#fff;
+		font-size:30px;
+		font-weight:bold;
+		  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+	}
+.form .form-control { margin-bottom: 10px;
+											border-radius: 5px;
+											height:25px;
+											  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+										}
+@media (min-width:768px) {
+	#home{
+		margin-top:50px;
+	}
+	#home .slogan{
+		color: #0e385f;
+		line-height: 29px;
+		font-weight:bold;
+		  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+	}
+}
+
+.help-block {
+	font-size: 10px;
+	margin-right: 1600px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+}
+
+h4 {
+	  font-family:"Freight Sans Bold", "Lucida Grande", "Tahoma", "Verdana", "Arial", "sans-serif";
+}
+
+#form2 {
+	width: 15px;
+}
+
+#form1 {
+	width: 147px;
+}
+
+input {
+	width: 300px;
+}
